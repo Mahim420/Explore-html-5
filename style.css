@@ -9,8 +9,63 @@ table {
     border-collapse: collapse;
 }
 
+a {
+    text-decoration: none;
+}
+
 .bolod:hover {
     color: red;
     padding: 0 10px;
-    text-align: end;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: blue;
+    font-size: 40px;
+}
+
+#link {
+    color: black;
+}
+
+nav {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+nav li:hover {
+    background-color: lightgray;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0 20px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+.dropdown {
+    display: none;
+    padding: 20px;
+    position: absolute;
+    background-color: bisque;
+    padding: 0px;
+
+}
+
+nav ul li:hover ul {
+    display: block;
+
+}
+
+.dropdown li {
+    padding: 10px;
+    margin: 0;
 }
